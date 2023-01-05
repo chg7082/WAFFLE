@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><!-- html문서의 정보 표시 -->
+        <meta charset="UTF-8"><!-- 다국어 지원(꼭 표시되어야만 다국어가 지원됨) -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- 뷰포트>-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0", maximum-scale=1.0, minimum-scale="1.0">
+        <title>와플대학</title>
+        <!-- 파비콘 -->
+        <link rel="shortcut icon" href="img/pabicon.png" type="image/icon">
+
+        <!--fullpage css 연결-->
+        <link rel="stylesheet" href="css/jquery.fullPage.css"/>
+        
+        <!-- Link Swiper's CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+        
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/main.css" type="text/css">
+
+        <!-- 제이쿼리 라이브러리-->
+        <script src="js/jquery-3.6.2.js"></script>
+
+        <!-- fullpage.js 연결-->
+        <script src="js/jquery.fullPage.js"></script>
+
+        <!-- Swiper JS -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+        <!-- 제이쿼리 사용자 파일-->
+        <script src="js/main.js"></script>
+
+    </head>
+
+    <body>
+        <header>
+            <!-- 로고 -->
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/wu_logo.png" alt="와플대학 로고">
+                </a>
+            </div>
+
+            <!-- 글로벌 네비게이션(전체메뉴) -->
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#">와플대학</a>
+                        <ul class="sub">
+                            <div class="sub_title">와플대학</div>
+                            <div class="sub_menu">
+                                <li><a href="#">인사말</a></li>
+                                <li><a href="#">브랜드스토리</a></li>
+                                <li><a href="#">와플대학스토리</a></li>
+                                <li><a href="#">오시는길</a></li>
+                            </div>
+                            <div class="sub_img">
+                                <img src="img/sub_bg1.png" alt="서브배경1">
+                            </div>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">메뉴소개</a>
+                        <ul class="sub">
+                            <div class="sub_title">메뉴소개</div>
+                            <div class="sub_menu">
+                                <li><a href="#">와플</a></li>
+                                <li><a href="#">커피 / 라떼</a></li>
+                                <li><a href="#">쥬스 / 차</a></li>
+                            </div>
+                            <div class="sub_img">
+                                <img src="img/sub_bg2.png" alt="서브배경2">
+                            </div>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">캠퍼스안내</a>
+                        <ul class="sub">
+                            <div class="sub_title">캠퍼스안내</div>
+                            <div class="sub_menu">
+                                <li><a href="#">캠퍼스 창업성공스토리</a></li>
+                                <li><a href="#">신규 캠퍼스 업데이트</a></li>
+                                <li><a href="#">전국 캠퍼스 현황</a></li>
+                            </div>
+                            <div class="sub_img">
+                                <img src="img/sub_bg3.png" alt="서브배경3">
+                            </div>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">창업안내</a>
+                        <ul class="sub">
+                            <div class="sub_title">창업안내</div>
+                            <div class="sub_menu">
+                                <li><a href="#">창업 경쟁력</a></li>
+                                <li><a href="#">창업절차 및 비용</a></li>
+                                <li><a href="#">창업상담</a></li>
+                                <li><a href="#">자주 묻는 질문</a></li>
+                            </div>
+                            <div class="sub_img">
+                                <img src="img/sub_bg4.png" alt="서브배경4">
+                            </div>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">커뮤니티</a>
+                        <ul class="sub">
+                            <div class="sub_title">커뮤니티</div>
+                            <div class="sub_menu">
+                                <li><a href="#">공지사항</a></li>
+                                <li><a href="#">고객의 소리</a></li>
+                            </div>
+                            <div class="sub_img">
+                                <img src="img/sub_bg5.png" alt="서브배경5">
+                            </div>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- 로그인과 조인,햄버거 메뉴 -->
+            <div class="right_menu">
+                <div class="member">
+                    <ul>
+                        <li><a href="#">Login</a></li>
+                        <li><a href="#">Join</a></li>
+                    </ul>
+                </div>
+                <div class="menu">
+                    <a href="#">
+                        <img src="img/hamburger.png" alt="햄버거 메뉴">
+                    </a>
+                </div>
+            </div>
+        </header>
+        <div class="warp" id="fullpage">
+            <!-- .section(pc버전 fullpage에서 사용) -->
+            <section class="section main_slide">
+                <!-- Swiper -->
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide main1">
+                            <div class="main_img">
+                                <img src="img/main_slide1_image.png" alt="메인슬라이드 이미지1">
+                            </div>
+                            <div class="main_txt">
+                                <h1>입안가득 상큼함과 달콤함이 팡팡!</h1>
+                                <p>새콤달콤한 블루베리, 크랜베리와 부드러운 생크림이<br> 
+                                만나 배로 더 풍성한 베리베리와플을 만나보세요.</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide main2">
+                            <div class="main_img">
+                                <img src="img/main_slide2_image.png" alt="메인슬라이드 이미지2">
+                            </div>
+                            <div class="main_txt">
+                                <h1>와플대학 모바일 쿠폰 런칭!</h1>
+                                <p>드디어 와플대학 모바일 쿠폰이 런칭되었습니다.<br>
+                                지금 바로 할인가격으로 저렴하게 장만하세요!</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide main3">
+                            <div class="main_img">
+                                <img src="img/main_slide3_image.png" alt="메인슬라이드 이미지3">
+                            </div>
+                            <div class="main_txt">
+                                <h1>단체주문 & 예약주문</h1>
+                                <p>와플대학에서는 단체주문과 예약주문이 가능합니다.<br>
+                                단체주문시에는 2~3일 전에 예약바랍니다.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
+
+            <section class="section product">
+                <h1>BEST MENU</h1>
+                <!-- 탭메뉴 -->
+                <div class="tab">
+                    <!-- 탭제목 -->
+                    <div class="tab_title">
+                        <ul>
+                            <li class="active"><a href="#">WAFFLE</a></li>
+                            <li><a href="#">COFFEE</a></li>
+                        </ul>
+                    </div>
+                    <!-- 탭내용 -->
+                    <div class="tab_con">
+                        <div class="tab_con1">
+                            <!-- WAFFLE product Slide -->
+                            <div class="swiper waffle_Swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <a href="#">
+                                            <img src="img/w_image.png" alt="탭메뉴 와플1">
+                                            <h3><b>베리베리젤라또와플</b></h3>
+                                            <p>크랜베리,블루베리 토핑으로 알록달록한 <br>와플로 입도 눈도 즐거워요</p>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="#">
+                                            <img src="img/w_image2.png" alt="탭메뉴 와플2">
+                                            <h3><b>딸기누텔라와플</b></h3>
+                                            <p>바삭한 와플에 상큼달달한 딸기와 <br>인기절정 누텔라를 더하다</p>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="#">
+                                            <img src="img/w_image3.png" alt="탭메뉴 와플3">
+                                            <h3><b>바나나와플</b></h3>
+                                            <p>부드럽고 달콤한 바나나와 고소하고 <br>진한 땅콩크림을 더하다</p>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="#">
+                                            <img src="img/w_image4.png" alt="탭메뉴 와플4">
+                                            <h3><b>밀크카라멜와플</b></h3>
+                                            <p>카라멜소스와 브러운슈가시럽이 만나 <br>정말 맛있는 밀크카라멜와플</p>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="#">
+                                            <img src="img/w_image5.png" alt="탭메뉴 와플5">
+                                            <h3><b>블루베리범벅와플</b></h3>
+                                            <p>신선한 블루베리를 아낌없이 넣어 <br>상큼함과 달콤함이 입안가득</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-pagination"></div>
+                            </div>
+                        </div>
+
+                        <div class="tab_con2">
+                            <!-- COFFEE product Slide -->
+                            <div class="swiper coffee_Swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <a href="#">
+                                            <img src="img/c_image.png" alt="탭메뉴 커피1">
+                                            <h3><b>카페라떼(HOT/ICE)</b></h3>
+                                            <p>스페셜티급 고급원두와 1등급 우유를 <br>사용한 와플대학 카페라떼</p>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="#">
+                                            <img src="img/c_image2.png" alt="탭메뉴 커피2">
+                                            <h3><b>아메리카노(HOT/ICE)</b></h3>
+                                            <p>스페셜티급 고급원두를 사용한 <br>와플대학 아메리카노</p>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="#">
+                                            <img src="img/c_image3.png" alt="탭메뉴 커피3">
+                                            <h3><b>그린티라떼(HOT/ICE)</b></h3>
+                                            <p>쌉싸름한 녹차와 부드러운 우유가 <br>어우러진 그린티라떼</p>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="#">
+                                            <img src="img/c_image4.png" alt="탭메뉴 커피4">
+                                            <h3><b>바닐라라떼(HOT/ICE)</b></h3>
+                                            <p>고급원두와 1등급우유,달달한 바닐라<br>시럽이 들어간 바닐라라떼</p>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="#">
+                                            <img src="img/c_image5.png" alt="탭메뉴 커피5">
+                                            <h3><b>민트초코라떼</b></h3>
+                                            <p>상쾌하고 청량감이 가득한 민트에<br> 부드러운 초콜릿이 어우러진 라떼</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-pagination"></div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div> 
+            </section> 
+
+            <!-- <section class="section"> -->
+                <!-- <h1>NEWS &amp; EVENT</h1> -->
+            <section class="section event">
+                    <h1>NEWS &amp; EVENT</h1>
+                    <h3>EVENT</h3>
+                    <!-- Swiper -->
+                    <div class="swiper eventSlide">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <div class="event_img event1"></div>
+                                    <div class="event_txt">
+                                        <p>와플 신메뉴 <br>'취향저격 범벅시리즈'</p>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <div class="event_img event2"></div>
+                                    <div class="event_txt">
+                                        <p>와플대학 카카오톡 선물하기 <br>모바일 쿠폰런칭</p>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <div class="event_img event3"></div>
+                                    <div class="event_txt">
+                                        <p>와플과 잘 어울리는 와플대학 <br>커피를 소개합니다!</p>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <div class="event_img event4"></div>
+                                    <div class="event_txt">
+                                        <p>와플대학 <br>캠퍼스400호점 달성!</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <!--<div class="swiper-pagination"></div>-->
+
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        
+                        <div class="swiper-scrollbar"></div>
+                    </div>
+            </section>
+
+            <section class="section news">
+                <h3>NEWS</h3>
+                <div class="news_box">
+                    <div class="news1">
+                        <div class="news_img">
+                            <img src="img/news1.png" alt="경남 양산 경남 김해 캠퍼스 오픈">
+                        </div>
+                        <div class="news_txt">
+                            <span>NEWS</span>
+                            <p>경남 양산 캠퍼스 & 경남 김해 캠퍼스가 곧 오픈 됩니다.</p>
+                        </div>
+                    </div>
+
+                    <div class="news2">
+                        <div class="news_img">
+                            <img src="img/news2.png" alt="브라운 슈가 라떼 출시">
+                        </div>
+                        <div class="news_txt">
+                            <span>NEWS</span>
+                            <p>달콤하고 진한맛이 일품인 '브라운 슈가 라떼' 출시!</p>
+                        </div>
+                    </div>
+                    <button>All News</button>
+                </div>
+            </section>
+            <!-- </section> -->
+
+            <section class="section video">
+                <h1>WAFFLE UNIVERSITY VIDEO</h1>
+                <!-- 흐르는 글자 영역 -->
+                <div class="marquee">
+                    <div class="marquee_box">
+                        <span>WAFFLES WITH 10 FLAVORS OF FRESH CREAM</span>
+                        <span>WAFFLES WITH 10 FLAVORS OF FRESH CREAM</span>
+                    </div>
+                </div>
+                <!-- 유튜브 동영상 영역 -->
+                <div class="youtube">
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/YK9itDRk_64" title="YouTube video player" 
+                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen></iframe>
+                </div>
+            </section>
+
+            <section class="section follow">
+                <h1>FOLLOW US</h1>
+                <p>@waffleuniv_official</p>
+                <div class="follow_list">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="img/f_1.png" alt="베리베리와플">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/f_2.png" alt="시험공부는 당 충전부터">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/f_3.png" alt="다양한 토핑을 넣은 와플">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/f_4.png" alt="와플학과편">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/f_5.png" alt="와플대학 추억선물">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/f_6.png" alt="커피음료학과편">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <footer class="section fp-auto-height">
+                <!-- 흐르는 글자 영역 -->
+                <div class="marquee">
+                    <div class="marquee_box">
+                        <span>WAFFLES WITH 10 FLAVORS OF FRESH CREAM</span>
+                        <span>WAFFLES WITH 10 FLAVORS OF FRESH CREAM</span>
+                    </div>
+                </div>
+
+               <div class="f_wrap">
+                    <div class="f_top">
+                        <ul>
+                            <li><a href="#">와플대학</a></li>
+                            <li><a href="#">메뉴소개</a></li>
+                            <li><a href="#">캠퍼스안내</a></li>
+                            <li><a href="#">창업안내</a></li>
+                            <li><a href="#">커뮤니티</a></li>
+                            <!--<li><a href="#">오픈캠버스</a></li>-->
+                        </ul>
+                    </div>
+                    <div class="f_bottom">
+                        <div class="f_logo">
+                            <img src="img/f_logo.png" alt="푸터로고">
+                        </div>
+
+                        <div class="sns">
+                            <ul>
+                                <li><a href="#"><img src="img/instar.png" alt="인스타그램"></a></li>
+                                <li><a href="#"><img src="img/facebook.png" alt="페이스북"></a></li>
+                            </ul>
+                        </div>
+
+                        <address>
+                            (주)와플대학 대표이사:손정희<br>
+                            주소:서울특별시 용산구 한강대로 325(갈월동)<br>
+                            사업자 등록번호:191-88-02243<br>
+                            본사 창업문의:1588-1706(점심시간:12:00~13:30)<br>
+                            팩스:070-4170-4105 이메일:waffle@waffleuniv.com
+                        </address>
+                    </div>
+               </div>
+               <small>Copyright 2017 (주)와플대학 rights reserved.</small>
+            </footer>
+        </div>
+
+        <!-- 팝업 메뉴 -->
+        <div class="popup_menu">
+            <!-- 닫기버튼 -->
+            <div class="close_btn">
+                <a href="#">
+                    <img src="img/close.png" alt="닫기버튼">
+                </a>
+            </div>
+            <h3>와플대학의<br>다양한 소식을 빠르게 만나보세요!</h3>
+            <div class="buttons">
+                <ul>
+                    <li>
+                        <a href="#">Join Us</a>
+                    </li>
+                    <li>
+                        <a href="#">Login</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="popup_nav">
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#">와플대학</a>
+                            <ul class="sub">
+                                <li><a href="#">인사말</a></li>
+                                <li><a href="#">브랜드스토리</a></li>
+                                <li><a href="#">와플대학스토리</a></li>
+                                <li><a href="#">오시는길</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">메뉴소개</a>
+                            <ul class="sub">
+                                <li><a href="#">와플</a></li>
+                                <li><a href="#">커피 / 라떼</a></li>
+                                <li><a href="#">쥬스 / 차</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">캠퍼스안내</a>
+                            <ul class="sub">
+                                <li><a href="#">캠퍼스 창업성공스토리</a></li>
+                                <li><a href="#">신규 캠퍼스 업데이트</a></li>
+                                <li><a href="#">전국 캠퍼스 현황</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">창업안내</a>
+                            <ul class="sub">
+                                <li><a href="#">창업 경쟁력</a></li>
+                                <li><a href="#">창업절차 및 비용</a></li>
+                                <li><a href="#">창업상담</a></li>
+                                <li><a href="#">자주 묻는 질문</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">커뮤니티</a>
+                            <ul class="sub">
+                                <li><a href="#">공지사항</a></li>
+                                <li><a href="#">고객의 소리</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            
+            <div class="popup_follow">
+                <h4>Fllow Us</h4>
+                <div class="popup_sns">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="img/p_instar.png" alt="인스타그램">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/p_face.png" alt="페이스북">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>

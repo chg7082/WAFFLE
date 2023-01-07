@@ -187,14 +187,14 @@ footer small{background-color: #c1702f; display: block; text-align: center; padd
 
 /* 주메뉴에 플러스 버튼 */
 .popup_menu .popup_nav nav > ul > li > a:after{content:""; width: 20px; height: 20px; display: block; background-image: url(../img/puls.png); background-position: center;
-                                               background-size: cover; background-repeat: no-repeat; position: absolute; right: 3vw; top: 4.8vw;}
+                                               background-size: cover; background-repeat: no-repeat; position: absolute; right: 3vw; top: 4vw;}
 /* 주메뉴 클릭했을때 스타일 지정 */
 .popup_menu .popup_nav nav > ul > li > a.active{background-color: #ffe800; color: #2400ff; } 
 .popup_menu .popup_nav nav > ul > li > a.active:after{display: none;}
 
 
 .popup_menu .popup_nav nav .sub{position: relative; background-color: #fff;  width: 88.5%; height: 100%; margin-bottom: 6vw; padding: 5vw; 
-                                font-family: 'Noto Sans KR'; display: none;}
+                                font-family: 'Noto Sans KR'; display: none; font-size: 5vw;}
 
 /* 팔로우 어스(팝업메뉴에 포함) */
 .popup_menu .popup_follow{padding: 10vw 5vw; display: flex; flex-flow: column nowrap; justify-content: center; align-items: center; background-color: #fff8a9;}
@@ -518,5 +518,12 @@ footer small{background-color: #c1702f; display: block; text-align: center; padd
     footer .f_bottom .sns{order:1; }
     footer .f_bottom .sns ul li{margin: 1vw; width: 2vw; width: 3vw;}
     
+
+
+
+
+
+
+
 
 }

@@ -22,7 +22,7 @@ section.main_slide .swiper .main1{background-image: url(../img/main_slide1_bcak.
 section.main_slide .swiper .main2{background-image: url(../img/main_slide2_back.png);}
 section.main_slide .swiper .main3{background-image: url(../img/main_slide3_back.png);}
 
-section.main_slide .swiper .swiper-slide .main_txt{margin-top: 7vw; padding: 7vw;}
+section.main_slide .swiper .swiper-slide .main_txt{margin-top: 10vw; padding: 7vw;}
 section.main_slide .swiper .swiper-slide .main_txt h1{font-family: 'NEXON Lv1 Gothic OTF'; margin-bottom: 5vw; font-weight: bold; color: #ffffff; font-size: 5vw;}
 section.main_slide .swiper .swiper-slide .main_txt p{font-family: 'Noto Sans KR', sans-serif; color: #ffffff; font-size: 3.5vw;}
 
@@ -30,7 +30,7 @@ section.main_slide .swiper .swiper-slide .main_txt2{padding: 7vw; margin-top: 2v
 section.main_slide .swiper .swiper-slide .main_txt2 h1{font-family: 'NEXON Lv1 Gothic OTF';  font-weight: bold; color: #ffffff; font-size: 5vw; margin-bottom: 5vw;}
 section.main_slide .swiper .swiper-slide .main_txt2 p{font-family: 'Noto Sans KR', sans-serif; color: #ffffff; font-size: 3.5vw;}
 
-section.main_slide .swiper .swiper-slide .main_txt3{margin-top: 11.5vw; padding: 7vw;}
+section.main_slide .swiper .swiper-slide .main_txt3{margin-top: 12vw; padding: 7vw;}
 section.main_slide .swiper .swiper-slide .main_txt3 h1{font-family: 'NEXON Lv1 Gothic OTF'; margin-bottom: 5vw; font-weight: bold; color: #ffffff; 
                                                        font-size: 5vw;}
 section.main_slide .swiper .swiper-slide .main_txt3 p{font-family: 'Noto Sans KR', sans-serif; color: #ffffff; font-size: 3.5vw;}

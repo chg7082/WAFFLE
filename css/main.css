@@ -35,7 +35,7 @@ section.main_slide .swiper .swiper-slide .main_txt3 h1{font-family: 'NEXON Lv1 G
                                                        font-size: 5vw;}
 section.main_slide .swiper .swiper-slide .main_txt3 p{font-family: 'Noto Sans KR', sans-serif; color: #ffffff; font-size: 3.5vw;}
 
-section.main_slide .swiper .main_img{margin-top: 30vw; padding: 6vw;}
+section.main_slide .swiper .main_img{margin-top: 45vw; padding: 6vw;}
 
 
 
@@ -65,11 +65,11 @@ section.product .tab .tab_con > div{position: absolute; width: 90%;}
 section.product .tab .tab_con .swiper-slide{height: 160vw;}
 section.product .tab .tab_con .swiper-slide img{width: 75%;}
 
-section.product .tab .tab_con .swiper h3{display: inline-block; margin-top: 2vw; position: relative; font-family: 'NEXON Lv1 Gothic OTF'; font-size: 5vw; font-weight: bold;}
+section.product .tab .tab_con .swiper h3{display: inline-block; margin-top: 2vw; position: relative; font-family: 'NEXON Lv1 Gothic OTF'; font-size: 6vw; font-weight: bold;}
 section.product .tab .tab_con .swiper b{background-color: white; border-radius: 15px 15px 15px 15px ; border: 3px solid #1d557a; position: relative; z-index: 2; padding: 8px 10px; display: block;}
 section.product .tab .tab_con .swiper h3:after{content:"";  position: absolute; background-color: #1d557a; right: -5px; bottom: -4px; display: block; width: 100%; height: 100%;
                                                border-radius: 15px 15px 15px 15px ;}
-section.product .tab .tab_con .swiper p{margin-top: 3vw; text-align:center; font-size: 3.2vw; font-family: 'Noto Sans KR';}
+section.product .tab .tab_con .swiper p{margin-top: 3vw; text-align:center; font-size: 3.8vw; font-family: 'Noto Sans KR';}
 
 section.product .tab .tab_con .swiper-pagination{bottom: 65vw;}
 section.product .tab .tab_con .swiper-pagination-bullet{width: 30px; height: 3px; border-radius: 0; }
@@ -97,8 +97,8 @@ section.event .event3{background-image: url(../img/e_b3.png);}
 section.event .event4{background-image: url(../img/e_b4.png);}
 
 
-section.event .event_txt{background-color: #009aff; color: #fff; font-size: 4.7vw; text-align: left; padding-top: 2vw; padding-bottom: 2vw; padding-left: 2vw; 
-                          padding-right: 2vw; height: 18vw; font-family: 'Noto Sans KR';}
+section.event .event_txt{background-color: #009aff; color: #fff; font-size: 4.2vw; text-align: left; padding-top: 2vw; padding-bottom: 2vw; padding-left: 2vw; 
+                          padding-right: 2vw; height: 16vw; font-family: 'Noto Sans KR';}
 
 section.event .swiper{overflow: visible;}
 /* 이벤트 슬라이드의 좌우버튼 */
@@ -135,7 +135,7 @@ section.video .marquee{width: 200%; height: 20vw; overflow: hidden; position: re
 section.video .marquee .marquee_box{width: 200%; display: flex; flex-flow: row nowrap; align-items: center; position: absolute; overflow: hidden;
                                     animation:marquee 12s linear infinite;}
 /* 부모객체 .marquee_box의 가로길이의 50% */
-section.video .marquee .marquee_box span{padding: 5vw 0; display: inline-block; width: 50%; font-size: 8vw; /* white-space: nowrap; 글자 길이가 길어서 줄바꿈이 되는것을 방지 */
+section.video .marquee .marquee_box span{padding: 4vw 0; display: inline-block; width: 50%; font-size: 8vw; /* white-space: nowrap; 글자 길이가 길어서 줄바꿈이 되는것을 방지 */
                                          white-space: nowrap; background-color:#e75b5a; font-family: 'Noto Sans KR'; font-weight: bold; color: #fff;}
 @keyframes marquee{0%{left: 0%;} 100%{left:-100%}}
 

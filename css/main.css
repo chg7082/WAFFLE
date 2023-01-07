@@ -135,7 +135,7 @@ section.video .marquee{width: 200%; height: 20vw; overflow: hidden; position: re
 section.video .marquee .marquee_box{width: 200%; display: flex; flex-flow: row nowrap; align-items: center; position: absolute; overflow: hidden;
                                     animation:marquee 12s linear infinite;}
 /* 부모객체 .marquee_box의 가로길이의 50% */
-section.video .marquee .marquee_box span{padding: 3vw 0; display: inline-block; width: 50%; font-size: 8vw; /* white-space: nowrap; 글자 길이가 길어서 줄바꿈이 되는것을 방지 */
+section.video .marquee .marquee_box span{padding: 5vw 0; display: inline-block; width: 50%; font-size: 8vw; /* white-space: nowrap; 글자 길이가 길어서 줄바꿈이 되는것을 방지 */
                                          white-space: nowrap; background-color:#e75b5a; font-family: 'Noto Sans KR'; font-weight: bold; color: #fff;}
 @keyframes marquee{0%{left: 0%;} 100%{left:-100%}}
 
@@ -155,7 +155,7 @@ footer{background-color: #e08a45; color: #fff; padding-top: 3vw;}
 footer .marquee{display: none;} /* 모바일 버전에선 안보이고 피시버전에서는 보임 */
 footer .f_top{border-bottom: 1px solid#fff; display: flex; justify-content: center; padding-bottom: 3vw;}
 footer .f_top ul{display: flex;}
-footer .f_top ul li a{color: #fff; font-size: 3vw; margin: 1vw; white-space: nowrap; }
+footer .f_top ul li a{color: #fff; font-size: 4vw; margin: 1vw; white-space: nowrap; }
 footer .f_top ul li a:after{content: "|"; float: right; color: #fff; margin-left: 2vw;}
 footer .f_top ul li:last-child a:after{content: "";}
 
@@ -163,7 +163,7 @@ footer .f_bottom{display: flex; flex-flow: column nowrap; align-items: center;}
 footer .f_bottom .f_logo{padding: 10vw 5vw; margin-bottom: 2vw;}
 footer .f_bottom .sns ul{display: flex;}
 footer .f_bottom .sns ul li{width: 40px; margin: 2vw; }
-footer .f_bottom address{font-weight: normal; font-style: normal; font-size: 3.5vw; margin-top: 10vw; line-height: 24px; font-family: 'Noto Sans KR';}
+footer .f_bottom address{font-weight: normal; font-style: normal; font-size: 3.8vw; margin-top: 10vw; line-height: 24px; font-family: 'Noto Sans KR';}
 footer small{background-color: #c1702f; display: block; text-align: center; padding: 4vw; margin-top: 5vw; color: #fff; /* width: 100%; */ 
                             font-size: 4vw; font-family: 'Noto Sans KR'; height: 5vw;}
 

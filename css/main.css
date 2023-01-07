@@ -71,7 +71,7 @@ section.product .tab .tab_con .swiper h3:after{content:"";  position: absolute; 
                                                border-radius: 15px 15px 15px 15px ;}
 section.product .tab .tab_con .swiper p{margin-top: 3vw; text-align:center; font-size: 3.8vw; font-family: 'Noto Sans KR';}
 
-section.product .tab .tab_con .swiper-pagination{bottom: 65vw;}
+section.product .tab .tab_con .swiper-pagination{bottom: 50vw;}
 section.product .tab .tab_con .swiper-pagination-bullet{width: 30px; height: 3px; border-radius: 0; }
 section.product .tab .tab_con .swiper-pagination-bullet-active{background-color: #001eff;}
 

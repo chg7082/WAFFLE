@@ -22,15 +22,15 @@ section.main_slide .swiper .main1{background-image: url(../img/main_slide1_bcak.
 section.main_slide .swiper .main2{background-image: url(../img/main_slide2_back.png);}
 section.main_slide .swiper .main3{background-image: url(../img/main_slide3_back.png);}
 
-section.main_slide .swiper .swiper-slide .main_txt{margin-top: 7vw; padding: 7vw;}
+section.main_slide .swiper .swiper-slide .main_txt{margin-top: 1vw; padding: 7vw;}
 section.main_slide .swiper .swiper-slide .main_txt h1{font-family: 'NEXON Lv1 Gothic OTF'; margin-bottom: 5vw; font-weight: bold; color: #ffffff; font-size: 5vw;}
 section.main_slide .swiper .swiper-slide .main_txt p{font-family: 'Noto Sans KR', sans-serif; color: #ffffff; font-size: 3.5vw;}
 
-section.main_slide .swiper .swiper-slide .main_txt2{padding: 7vw; margin-top: 2vw;}
+section.main_slide .swiper .swiper-slide .main_txt2{padding: 7vw; margin-top: -5vw;}
 section.main_slide .swiper .swiper-slide .main_txt2 h1{font-family: 'NEXON Lv1 Gothic OTF';  font-weight: bold; color: #ffffff; font-size: 5vw; margin-bottom: 5vw;}
 section.main_slide .swiper .swiper-slide .main_txt2 p{font-family: 'Noto Sans KR', sans-serif; color: #ffffff; font-size: 3.5vw;}
 
-section.main_slide .swiper .swiper-slide .main_txt3{margin-top: 11.5vw; padding: 7vw;}
+section.main_slide .swiper .swiper-slide .main_txt3{margin-top: vw; padding: 7vw;}
 section.main_slide .swiper .swiper-slide .main_txt3 h1{font-family: 'NEXON Lv1 Gothic OTF'; margin-bottom: 5vw; font-weight: bold; color: #ffffff; 
                                                        font-size: 5vw;}
 section.main_slide .swiper .swiper-slide .main_txt3 p{font-family: 'Noto Sans KR', sans-serif; color: #ffffff; font-size: 3.5vw;}
@@ -61,7 +61,7 @@ section.product .tab .tab_title ul li.active:before{display: block;}
 
 /* 탭내용 */
 section.product .tab .tab_con{margin-top: 5vw; height: 20vw;}
-section.product .tab .tab_con > div{position: absolute; width: 90%;}
+section.product .tab .tab_con > div{ position: absolute; width: 90%;}
 section.product .tab .tab_con .swiper-slide{height: 160vw;}
 section.product .tab .tab_con .swiper-slide img{width: 75%;}
 
@@ -209,10 +209,10 @@ footer small{background-color: #c1702f; display: block; text-align: center; padd
 
 
 /* 태블릿(480~1280px) 480~1280px까지 */
-@media(min-width:480px){
+@media (min-width:480px){
     /* 헤더 */
-    header{padding: 3vw; height: 115px;}
-    header .logo{width: 15vw;}
+    header{padding: 3vw;}
+    header .logo{width: 10vw;}
     header .right_menu{display: flex;}
     header .right_menu .member{display: block;}
     header .right_menu .menu{width: 2.5vw; margin-left: 5vw;}
@@ -278,12 +278,12 @@ footer small{background-color: #c1702f; display: block; text-align: center; padd
     section.event, section.news{padding: 5vw 3vw; }
     section.event h1{font-size: 5vw; text-underline-offset: 20px;}
     section.event h3{font-size: 3vw;  padding-left:5vw; margin:3vw;}
-    section.event .eventSlide{width: 80%; margin: 0 auto; overflow: hidden;}
+    section.event .eventSlide{margin: 0 auto; overflow: hidden;}
     
     section.event .eventSlide .swiper-scrollbar{display: none;}
     section.event .eventSlide .swiper-button-next, section.event .eventSlide .swiper-button-prev{display: block;}
 
-    section.event .event_img{background-size: cover; background-repeat: no-repeat; background-position: center;  height: 40vw;}
+    section.event .event_img{background-size: cover; background-repeat: no-repeat; background-position: center;  height: 23.2vw; width: 20vw;}
     section.event .event1{background-image: url(../img/e_b1_1.png);}
     section.event .event2{background-image: url(../img/e_b2_1.png);}
     section.event .event3{background-image: url(../img/e_b3.png);}
@@ -394,9 +394,9 @@ footer small{background-color: #c1702f; display: block; text-align: center; padd
     header nav > ul > li:hover a{color:#001eff}
     
     /* 피시버전 서브메뉴 */
-    header nav .sub img{height: 550px;}
+    header nav .sub img{height: 700px;}
     header nav .sub{position: absolute; left: 0; top: 3.6vw; display: flex; background-color: #fff; justify-content: space-around; width: 100%; 
-                    height: 550px; border-top: 1px solid#ddd; margin-top: 1.5vw; overflow: hidden;}
+                    height: 700px; border-top: 1px solid#ddd; margin-top: 1.5vw; overflow: hidden;}
     header nav .sub .sub_title{font-size: 1.8vw; margin-top: 1vw; }
     header nav .sub .sub_title:after{content: ""; width: 5vw; height: 1px; background-color: #001eff; display: block; float: right; margin-top: 1.2vw; margin-left: 2vw;}
     header nav .sub .sub_menu{margin-top: 1.1vw;}
@@ -458,7 +458,8 @@ footer small{background-color: #c1702f; display: block; text-align: center; padd
     section.product{padding: 5vw 5vw;}
     section.product .tab{margin-top: 1vw;}
     section.product h1{font-size: 4vw; margin-top: -5vw;}
-    section.product .tab .tab_con > div{position: absolute; width: 90%; margin-top: -5vw;}
+    
+    section.product .tab .tab_con > div{width: 90%; margin-top: -5vw;}
 
     section.product .tab .tab_con .swiper-slide{height: 160vw;}
     section.product .tab .tab_con .swiper-slide img{width: 75%;}
@@ -473,13 +474,17 @@ footer small{background-color: #c1702f; display: block; text-align: center; padd
     section.product .tab .tab_con .swiper h3:after{content:"";  position: absolute; background-color: #1d557a; right: -25px; bottom: -25px; display: block; width: 100%; height: 100%;
                                                 border-radius: 15px 15px 15px 15px ;}
     section.product .tab .tab_con .swiper p{margin-top: 2vw; text-align:center; font-size: 1.2vw; font-family: 'Noto Sans KR';}
-    section.product .tab .tab_con .swiper-button-next{width: 100px; height: 100px;}
-    section.product .tab .tab_con .swiper-button-next:after{content: ""; background-image: url(../img/p_right.png); width: 100%; height: 100%; background-position: center; 
-                                                background-size: cover; background-repeat: no-repeat;  margin-left: 10px; margin-top: 6vw;}
 
-    section.product .tab .tab_con .swiper-button-prev{width:100px; height: 100px;}
+    section.product .tab .tab_con .swiper-button-next{width: 30px; height: 30px;}
+    section.product .tab .tab_con .swiper-button-next:after{content: ""; background-image: url(../img/p_right.png); width: 100%; height: 100%; background-position: center; 
+                                                background-size: cover; background-repeat: no-repeat; margin-bottom: 20px; margin-top: 20px;}
+
+    section.product .tab .tab_con .swiper-button-prev{width:30px; height: 30px;}
     section.product .tab .tab_con .swiper-button-prev:after{content: ""; background-image: url(../img/p_left.png); width: 100%; height: 100%; background-position: center; 
-                                                background-size: cover; background-repeat: no-repeat; margin-right: 10px; margin-top: 6vw;}
+                                                background-size: cover; background-repeat: no-repeat; margin-bottom: 20px; margin-top: 20px;}
+
+
+    
 
     
 

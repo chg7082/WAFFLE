@@ -60,7 +60,7 @@ section.product .tab .tab_title ul li.active:before{display: block;}
 
 
 /* 탭내용 */
-section.product .tab .tab_con{margin-top: 3vw; height: 22vw;}
+section.product .tab .tab_con{margin-top: 5vw; height: 20vw;}
 section.product .tab .tab_con > div{position: absolute; width: 90%;}
 section.product .tab .tab_con .swiper-slide{height: 160vw;}
 section.product .tab .tab_con .swiper-slide img{width: 75%;}
@@ -455,19 +455,22 @@ footer small{background-color: #c1702f; display: block; text-align: center; padd
     section.product .tab .tab_con .swiper-slide{height: 160vw;}
     section.product .tab .tab_con .swiper-slide img{width: 100%;} */
 
-    section.product{padding: 5vw 5vw; height: 85vw;}
-    section.product .tab .tab_con > div{position: absolute; width: 90%;}
+    section.product{padding: 5vw 5vw;}
+    section.product .tab{margin-top: 1vw;}
+    section.product h1{font-size: 4vw; margin-top: -5vw;}
+    section.product .tab .tab_con > div{position: absolute; width: 90%; margin-top: -5vw;}
+
     section.product .tab .tab_con .swiper-slide{height: 160vw;}
     section.product .tab .tab_con .swiper-slide img{width: 75%;}
-    section.product h1{font-size: 4vw;}
-    section.product .tab .tab_title ul li a{font-size: 2vw;}
-    section.product .tab .tab_title ul li.active:before{width: 120px; height: 120px; top: 90px; left: 150px; }
+    section.product .tab .tab_title ul li a{font-size: 2vw; margin-top: 1vw;}
+
+    section.product .tab .tab_title ul li.active:before{width: 150px; height: 150px; top: 200px; left: 200px; }
 
     section.product .tab .tab_con .swiper h3{display: inline-block; margin-top: 2vw; position: relative; font-family: 'NEXON Lv1 Gothic OTF'; 
                                             font-size: 2vw; font-weight: bold;}
     section.product .tab .tab_con .swiper b{background-color: white; border-radius: 15px 15px 15px 15px ; border: 3px solid #1d557a; 
                                              position: relative; z-index: 2; padding: 8px 10px; display: block;}
-    section.product .tab .tab_con .swiper h3:after{content:"";  position: absolute; background-color: #1d557a; right: -20px; bottom: -10px; display: block; width: 100%; height: 100%;
+    section.product .tab .tab_con .swiper h3:after{content:"";  position: absolute; background-color: #1d557a; right: -25px; bottom: -25px; display: block; width: 100%; height: 100%;
                                                 border-radius: 15px 15px 15px 15px ;}
     section.product .tab .tab_con .swiper p{margin-top: 2vw; text-align:center; font-size: 1.2vw; font-family: 'Noto Sans KR';}
     section.product .tab .tab_con .swiper-button-next{width: 100px; height: 100px;}
@@ -502,21 +505,21 @@ footer small{background-color: #c1702f; display: block; text-align: center; padd
     section.event .event4{background-image: url(../img/e_b4.png);}
 
     section.event .event_txt{background-color: #009aff; color: #fff; font-size: 1.3vw; text-align: left; padding-top: 1vw; padding-bottom: 4vw; padding-left: 1vw; 
-                          padding-right: 1vw; height: 6.5vw; font-family: 'Noto Sans KR';}
+                          padding-right: 1vw; height: 5.5vw; font-family: 'Noto Sans KR';}
 
 
     /* 뉴스 */
     section.news .news{padding: 0;}
     section.news h3{font-size: 2vw;  padding-left:3vw; margin-top: 6vw;}
-    section.news .news_box{width: 65%; margin: 0 auto;}
+    section.news .news_box{width: 55%; margin: 0 auto;}
     section.news .news_box > div{display: flex; /* justify-content: space-between;*/  padding: 1vw;}
-    section.news .news_box .news_img{width: 40%; margin-bottom:0;}
+    section.news .news_box .news_img{width: 30%; margin-bottom:0;}
     section.news .news_box .news_txt{margin-left: 2vw; margin-top: 1vw;}
-    section.news .news_box span{padding: 1vw 1vw 1vw; background-color:#027710; color: #fff; font-size: 2vw;  margin: 1vw 0 3vw; font-weight: bold; 
+    section.news .news_box span{padding: 1vw 1vw 1vw; background-color:#027710; color: #fff; font-size: 1.2vw;  margin: 1vw 0 3vw; font-weight: bold; 
                               font-family: 'Noto Sans KR'; text-align: center;} 
-    section.news .news_box p{margin-top: 2vw; font-family: 'Noto Sans KR'; font-size: 1.5vw; color: #027710; font-weight: bold;}
+    section.news .news_box p{margin-top: 2vw; font-family: 'Noto Sans KR'; font-size: 1.2vw; color: #027710; font-weight: bold;}
     section.news .news_box button{padding: 1vw 1vw; border: none; background-color: #027710; border-radius: 10px; color: #fff; 
-                                 font-size: 1.5vw; font-family: 'NEXON Lv1 Gothic OTF';}
+                                 font-size: 1.5vw; font-family: 'NEXON Lv1 Gothic OTF'; margin-top: 2vw;}
 
 
 

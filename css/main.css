@@ -22,15 +22,15 @@ section.main_slide .swiper .main1{background-image: url(../img/main_slide1_bcak.
 section.main_slide .swiper .main2{background-image: url(../img/main_slide2_back.png);}
 section.main_slide .swiper .main3{background-image: url(../img/main_slide3_back.png);}
 
-section.main_slide .swiper .swiper-slide .main_txt{margin-top: 1vw; padding: 7vw;}
+section.main_slide .swiper .swiper-slide .main_txt{margin-top: 7vw; padding: 7vw;}
 section.main_slide .swiper .swiper-slide .main_txt h1{font-family: 'NEXON Lv1 Gothic OTF'; margin-bottom: 5vw; font-weight: bold; color: #ffffff; font-size: 5vw;}
 section.main_slide .swiper .swiper-slide .main_txt p{font-family: 'Noto Sans KR', sans-serif; color: #ffffff; font-size: 3.5vw;}
 
-section.main_slide .swiper .swiper-slide .main_txt2{padding: 7vw; margin-top: -5vw;}
+section.main_slide .swiper .swiper-slide .main_txt2{padding: 7vw; margin-top: 2vw;}
 section.main_slide .swiper .swiper-slide .main_txt2 h1{font-family: 'NEXON Lv1 Gothic OTF';  font-weight: bold; color: #ffffff; font-size: 5vw; margin-bottom: 5vw;}
 section.main_slide .swiper .swiper-slide .main_txt2 p{font-family: 'Noto Sans KR', sans-serif; color: #ffffff; font-size: 3.5vw;}
 
-section.main_slide .swiper .swiper-slide .main_txt3{margin-top: vw; padding: 7vw;}
+section.main_slide .swiper .swiper-slide .main_txt3{margin-top: 11.5vw; padding: 7vw;}
 section.main_slide .swiper .swiper-slide .main_txt3 h1{font-family: 'NEXON Lv1 Gothic OTF'; margin-bottom: 5vw; font-weight: bold; color: #ffffff; 
                                                        font-size: 5vw;}
 section.main_slide .swiper .swiper-slide .main_txt3 p{font-family: 'Noto Sans KR', sans-serif; color: #ffffff; font-size: 3.5vw;}
@@ -60,8 +60,8 @@ section.product .tab .tab_title ul li.active:before{display: block;}
 
 
 /* 탭내용 */
-section.product .tab .tab_con{margin-top: 5vw; height: 20vw;}
-section.product .tab .tab_con > div{ position: absolute; width: 90%;}
+section.product .tab .tab_con{margin-top: 3vw; height: 22vw;}
+section.product .tab .tab_con > div{position: absolute; width: 90%;}
 section.product .tab .tab_con .swiper-slide{height: 160vw;}
 section.product .tab .tab_con .swiper-slide img{width: 75%;}
 
@@ -78,11 +78,11 @@ section.product .tab .tab_con .swiper-pagination-bullet-active{background-color:
 /* 왼쪽, 오른쪽버튼 */
 section.product .tab .tab_con .swiper-button-next{width: 30px; height: 30px;}
 section.product .tab .tab_con .swiper-button-next:after{content: ""; background-image: url(../img/p_right.png); width: 100%; height: 100%; background-position: center; 
-                                                background-size: cover; background-repeat: no-repeat; margin-bottom: 530px; margin-top: 250px;}
+                                                background-size: cover; background-repeat: no-repeat; margin-bottom: 530px; margin-top: 100px;}
 
 section.product .tab .tab_con .swiper-button-prev{width:30px; height: 30px;}
 section.product .tab .tab_con .swiper-button-prev:after{content: ""; background-image: url(../img/p_left.png); width: 100%; height: 100%; background-position: center; 
-                                                background-size: cover; background-repeat: no-repeat; margin-bottom: 530px; margin-top: 250px;}
+                                                background-size: cover; background-repeat: no-repeat; margin-bottom: 530px; margin-top: 100px;}
 
 /* 이벤트 영역 */ 
 section.event, section.news{padding: 20vw 5vw; background-color: #8aff98; text-align: center;}
@@ -209,10 +209,10 @@ footer small{background-color: #c1702f; display: block; text-align: center; padd
 
 
 /* 태블릿(480~1280px) 480~1280px까지 */
-@media (min-width:480px){
+@media screen and (min-width:481px){
     /* 헤더 */
-    header{padding: 3vw;}
-    header .logo{width: 10vw;}
+    header{padding: 3vw; height: 115px;}
+    header .logo{width: 15vw;}
     header .right_menu{display: flex;}
     header .right_menu .member{display: block;}
     header .right_menu .menu{width: 2.5vw; margin-left: 5vw;}
@@ -231,16 +231,16 @@ footer small{background-color: #c1702f; display: block; text-align: center; padd
     section.main_slide .swiper .swiper-slide .main_img{order: 2;}
 
     section.main_slide .swiper .swiper-slide .main_txt{margin-top: 6vw; padding: 7vw;}
-    section.main_slide .swiper .swiper-slide .main_txt h1{font-family: 'NEXON Lv1 Gothic OTF'; margin-bottom: 5vw; font-weight: bold; color: #ffffff; font-size: 2.8vw;}
+    section.main_slide .swiper .swiper-slide .main_txt h1{font-family: 'NEXON Lv1 Gothic OTF'; margin-bottom: 5vw; font-weight: bold; color: #ffffff; font-size: 2.5vw;}
     section.main_slide .swiper .swiper-slide .main_txt p{font-family: 'Noto Sans KR', sans-serif; color: #ffffff; font-size: 1.8vw;}
 
     section.main_slide .swiper .swiper-slide .main_txt2{padding: 7vw; margin-top: 15vw;}
-    section.main_slide .swiper .swiper-slide .main_txt2 h1{font-family: 'NEXON Lv1 Gothic OTF';  font-weight: bold; color: #ffffff; font-size: 2.8vw; margin-bottom: 5vw;}
+    section.main_slide .swiper .swiper-slide .main_txt2 h1{font-family: 'NEXON Lv1 Gothic OTF';  font-weight: bold; color: #ffffff; font-size: 2.5vw; margin-bottom: 5vw;}
     section.main_slide .swiper .swiper-slide .main_txt2 p{font-family: 'Noto Sans KR', sans-serif; color: #ffffff; font-size: 1.8vw;}
 
     section.main_slide .swiper .swiper-slide .main_txt3{margin-top: 15vw; padding: 7vw;}
     section.main_slide .swiper .swiper-slide .main_txt3 h1{font-family: 'NEXON Lv1 Gothic OTF'; margin-bottom: 5vw; font-weight: bold; color: #ffffff; 
-                                                        font-size: 2.8vw;}
+                                                        font-size: 2.5vw;}
     section.main_slide .swiper .swiper-slide .main_txt3 p{font-family: 'Noto Sans KR', sans-serif; color: #ffffff; font-size: 1.8vw;}
 
     section.main_slide .swiper .main1 .main_img { margin-top:10vw; width: 45%;}
@@ -258,8 +258,8 @@ footer small{background-color: #c1702f; display: block; text-align: center; padd
     section.product .tab .tab_con .swiper-slide img{width: 75%;}
     section.product h1{font-size: 5vw;}
     section.product .tab .tab_title ul li a{font-size: 3vw;}
-    section.product .tab .tab_title ul li:before{position: absolute; width: 30px; height: 30px; border-radius: 100%; content: ""; background-color: #009aff; z-index: 1; 
-                                                 left: 40px; top:20px; display: none;}
+    section.product .tab .tab_title ul li:before{position: absolute; width: 40px; height: 40px; border-radius: 100%; content: ""; background-color: #009aff; z-index: 1; 
+                                                 left: 40px; top:22px; display: none;}
 
     section.product .tab .tab_con .swiper h3{display: inline-block; margin-top: 2vw; position: relative; font-family: 'NEXON Lv1 Gothic OTF'; 
                                             font-size: 3vw; font-weight: bold;}
@@ -278,12 +278,12 @@ footer small{background-color: #c1702f; display: block; text-align: center; padd
     section.event, section.news{padding: 5vw 3vw; }
     section.event h1{font-size: 5vw; text-underline-offset: 20px;}
     section.event h3{font-size: 3vw;  padding-left:5vw; margin:3vw;}
-    section.event .eventSlide{margin: 0 auto; overflow: hidden;}
+    section.event .eventSlide{width: 80%; margin: 0 auto; overflow: hidden;}
     
     section.event .eventSlide .swiper-scrollbar{display: none;}
     section.event .eventSlide .swiper-button-next, section.event .eventSlide .swiper-button-prev{display: block;}
 
-    section.event .event_img{background-size: cover; background-repeat: no-repeat; background-position: center;  height: 23.2vw; width: 20vw;}
+    section.event .event_img{height: 20vw; width: 20vw;}
     section.event .event1{background-image: url(../img/e_b1_1.png);}
     section.event .event2{background-image: url(../img/e_b2_1.png);}
     section.event .event3{background-image: url(../img/e_b3.png);}
@@ -305,7 +305,7 @@ footer small{background-color: #c1702f; display: block; text-align: center; padd
                               font-family: 'Noto Sans KR'; text-align: center;} 
     section.news .news_box p{margin-top: 2vw; font-family: 'Noto Sans KR'; font-size: 1.7vw; color: #027710; font-weight: bold;}
     section.news .news_box button{padding: 1vw 1vw; border: none; background-color: #027710; border-radius: 10px; color: #fff; 
-                                 font-size: 3vw; font-family: 'NEXON Lv1 Gothic OTF';}
+                                 font-size: 2.5vw; font-family: 'NEXON Lv1 Gothic OTF';}
 
     section.event .eventSlide .swiper-scrollbar{display: none;}
     section.event .eventSlide .swiper-button-next, section.event .eventSlide .swiper-button-prev{display: none;}
@@ -317,7 +317,7 @@ footer small{background-color: #c1702f; display: block; text-align: center; padd
 
     /* 팔로우 어스 (sns / follow us) */
     /* section.follow{padding: 20vw 5vw; background-color: #2cb39b; text-align: center; height:125vw;} */
-    section.follow{padding: 5vw 3vw; height: 65vw;}
+    section.follow{padding: 5vw 3vw; height: 70vw;}
     section.follow h1{font-size: 3vw; text-underline-offset: 20px;}
     section.follow p{font-size: 2vw;}
     section.follow .follow_list{width: 70%; margin: 0 auto;}
@@ -381,6 +381,10 @@ footer small{background-color: #c1702f; display: block; text-align: center; padd
     .popup_menu .popup_follow h4{font-size: 5vw; color: #ad9e08;}
     .popup_menu .popup_follow .popup_sns ul{display: flex; justify-content: center; margin-top: 5vw;}
     .popup_menu .popup_follow .popup_sns ul li{width: 40px; margin: 2vw;}
+
+
+
+
 }
 
 
@@ -394,13 +398,13 @@ footer small{background-color: #c1702f; display: block; text-align: center; padd
     header nav > ul > li:hover a{color:#001eff}
     
     /* 피시버전 서브메뉴 */
-    header nav .sub img{height: 700px;}
+    header nav .sub img{height: 250px; width:40vw;}
     header nav .sub{position: absolute; left: 0; top: 3.6vw; display: flex; background-color: #fff; justify-content: space-around; width: 100%; 
-                    height: 700px; border-top: 1px solid#ddd; margin-top: 1.5vw; overflow: hidden;}
+                    height: 250px; border-top: 1px solid#ddd; margin-top: 1.5vw; overflow: hidden;}
     header nav .sub .sub_title{font-size: 1.8vw; margin-top: 1vw; }
-    header nav .sub .sub_title:after{content: ""; width: 5vw; height: 1px; background-color: #001eff; display: block; float: right; margin-top: 1.2vw; margin-left: 2vw;}
+    header nav .sub .sub_title:after{content: ""; width: 5vw; height: 1px; background-color: #001eff; display: block; float: right; margin-top: 1.2vw; margin-left: 3vw;}
     header nav .sub .sub_menu{margin-top: 1.1vw;}
-    header nav .sub .sub_menu li a{font-size: 1.1vw; padding: 0.2vw 0; margin-left: -15vw;}
+    header nav .sub .sub_menu li a{font-size: 1.1vw; padding: 0.2vw 0; margin-left: -10vw;}
     header nav .sub .sub_menu li a:hover{color:#001eff}
 
     header .right_menu{display: flex;}
@@ -417,8 +421,15 @@ footer small{background-color: #c1702f; display: block; text-align: center; padd
     section.main_slide .swiper .main2{background-image: url(../img/pc_main_bg2_1.png);}
     section.main_slide .swiper .main3{background-image: url(../img/pc_main_bg3_1.png);} 
     section.main_slide .swiper .swiper-slide .main_txt{position: relative; width: auto; bottom: auto; left: auto; transform: translateX(0); order: 1;}
-    section.main_slide .swiper .swiper-slide .main_txt h1{font-size: 2.8vw; margin-bottom: 3vw;}
+    section.main_slide .swiper .swiper-slide .main_txt h1{font-size: 2.5vw; margin-bottom: 3vw;}
     section.main_slide .swiper .swiper-slide .main_txt p{font-size: 1.6vw;}
+
+    section.main_slide .swiper .swiper-slide .main_txt2 h1{font-size: 2.5vw; margin-bottom: 3vw;}
+    section.main_slide .swiper .swiper-slide .main_txt2 p{font-size: 1.6vw;}
+
+    section.main_slide .swiper .swiper-slide .main_txt3 h1{font-size: 2.5vw; margin-bottom: 3vw;}
+    section.main_slide .swiper .swiper-slide .main_txt3 p{font-size: 1.6vw;}
+
     section.main_slide .swiper .swiper-slide .main_img{order: 2;}
     
     section.main_slide .swiper .main1 .main_img { margin-top:10vw; width: 45%;}
@@ -426,7 +437,7 @@ footer small{background-color: #c1702f; display: block; text-align: center; padd
     section.main_slide .swiper .main3 .main_img { margin-top:10vw; width: 45%;}
 
     section.main_slide .swiper-pagination{bottom: 70px;}
-    section.main_slide .swiper-pagination-bullet{width: 70px; height: 70px; margin: 5vw;}
+    section.main_slide .swiper-pagination-bullet{width: 15px; height: 15px; margin: 5vw;}
     section.main_slide .swiper-pagination-bullet-active{background-color: #fcff00;}
 
 
@@ -455,36 +466,28 @@ footer small{background-color: #c1702f; display: block; text-align: center; padd
     section.product .tab .tab_con .swiper-slide{height: 160vw;}
     section.product .tab .tab_con .swiper-slide img{width: 100%;} */
 
-    section.product{padding: 5vw 5vw;}
-    section.product .tab{margin-top: 1vw;}
-    section.product h1{font-size: 4vw; margin-top: -5vw;}
-    
-    section.product .tab .tab_con > div{width: 90%; margin-top: -5vw;}
-
+    section.product{padding: 5vw 5vw; height: 70vw;}
+    section.product .tab .tab_con > div{position: absolute; width: 90%;}
     section.product .tab .tab_con .swiper-slide{height: 160vw;}
     section.product .tab .tab_con .swiper-slide img{width: 75%;}
-    section.product .tab .tab_title ul li a{font-size: 2vw; margin-top: 1vw;}
-
-    section.product .tab .tab_title ul li.active:before{width: 150px; height: 150px; top: 200px; left: 200px; }
+    section.product h1{font-size: 4vw;}
+    section.product .tab .tab_title ul li a{font-size: 2vw;}
+    section.product .tab .tab_title ul li.active:before{width: 50px; height: 50px; top: 27px; left: 55px; }
 
     section.product .tab .tab_con .swiper h3{display: inline-block; margin-top: 2vw; position: relative; font-family: 'NEXON Lv1 Gothic OTF'; 
-                                            font-size: 2vw; font-weight: bold;}
+                                            font-size: 1.5vw; font-weight: bold;}
     section.product .tab .tab_con .swiper b{background-color: white; border-radius: 15px 15px 15px 15px ; border: 3px solid #1d557a; 
-                                             position: relative; z-index: 2; padding: 8px 10px; display: block;}
-    section.product .tab .tab_con .swiper h3:after{content:"";  position: absolute; background-color: #1d557a; right: -25px; bottom: -25px; display: block; width: 100%; height: 100%;
+                                             position: relative; z-index: 2; padding: 8px 10px; display: block; font-size: 2vw;}
+    section.product .tab .tab_con .swiper h3:after{content:"";  position: absolute; background-color: #1d557a; right: -5px; bottom: -5px; display: block; width: 100%; height: 100%;
                                                 border-radius: 15px 15px 15px 15px ;}
-    section.product .tab .tab_con .swiper p{margin-top: 2vw; text-align:center; font-size: 1.2vw; font-family: 'Noto Sans KR';}
-
-    section.product .tab .tab_con .swiper-button-next{width: 30px; height: 30px;}
+    section.product .tab .tab_con .swiper p{margin-top: 2vw; text-align:center; font-size: 1vw; font-family: 'Noto Sans KR';}
+    section.product .tab .tab_con .swiper-button-next{width: 100px; height: 100px;}
     section.product .tab .tab_con .swiper-button-next:after{content: ""; background-image: url(../img/p_right.png); width: 100%; height: 100%; background-position: center; 
-                                                background-size: cover; background-repeat: no-repeat; margin-bottom: 20px; margin-top: 20px;}
+                                                background-size: cover; background-repeat: no-repeat;  margin-left: 10px; margin-top: 6vw;}
 
-    section.product .tab .tab_con .swiper-button-prev{width:30px; height: 30px;}
+    section.product .tab .tab_con .swiper-button-prev{width:100px; height: 100px;}
     section.product .tab .tab_con .swiper-button-prev:after{content: ""; background-image: url(../img/p_left.png); width: 100%; height: 100%; background-position: center; 
-                                                background-size: cover; background-repeat: no-repeat; margin-bottom: 20px; margin-top: 20px;}
-
-
-    
+                                                background-size: cover; background-repeat: no-repeat; margin-right: 10px; margin-top: 6vw;}
 
     
 
@@ -494,37 +497,37 @@ footer small{background-color: #c1702f; display: block; text-align: center; padd
     /* 이벤트와 뉴스 */
     /* 이벤트 */
     section.event, section.news{padding: 0vw;}
-    section.event h1{font-size: 4vw; text-underline-offset: 20px; margin-top: 8vw;}
-    section.event h3{font-size: 2vw;  padding-left:3vw; margin:4vw;}
+    section.event h1{font-size: 4vw; text-underline-offset: 20px; margin-top: 5vw;}
+    section.event h3{font-size: 2vw;  padding-left:3vw; margin:2vw;}
     section.event .eventSlide{width: 80%; margin: 0 auto; overflow: hidden;}
     
     
 
     section.event .eventSlide .swiper-scrollbar{display: none;}
-    section.event .eventSlide .swiper-button-next, section.event .eventSlide .swiper-button-prev{display: block;}
+    section.event .eventSlide .swiper-button-next, section.event .eventSlide .swiper-button-prev{display: none;}
 
-    section.event .event_img{background-size: cover; background-repeat: no-repeat; background-position: center;  height: 21vw;}
+    section.event .event_img{background-size: cover; background-repeat: no-repeat; background-position: center;  height: 20vw; width: 17.7vw;}
     section.event .event1{background-image: url(../img/e_b1_1.png);}
     section.event .event2{background-image: url(../img/e_b2_1.png);}
     section.event .event3{background-image: url(../img/e_b3.png);}
     section.event .event4{background-image: url(../img/e_b4.png);}
 
-    section.event .event_txt{background-color: #009aff; color: #fff; font-size: 1.3vw; text-align: left; padding-top: 1vw; padding-bottom: 4vw; padding-left: 1vw; 
-                          padding-right: 1vw; height: 5.5vw; font-family: 'Noto Sans KR';}
+    section.event .event_txt{background-color: #009aff; color: #fff; font-size: 1.2vw; text-align: left; padding-top: 1vw; padding-bottom: 4vw; padding-left: 1vw; 
+                          padding-right: 1vw; height: 5.5vw; width: 17.7vw; font-family: 'Noto Sans KR';}
 
 
     /* 뉴스 */
     section.news .news{padding: 0;}
     section.news h3{font-size: 2vw;  padding-left:3vw; margin-top: 6vw;}
-    section.news .news_box{width: 55%; margin: 0 auto;}
+    section.news .news_box{width: 65%; margin: 0 auto;}
     section.news .news_box > div{display: flex; /* justify-content: space-between;*/  padding: 1vw;}
-    section.news .news_box .news_img{width: 30%; margin-bottom:0;}
+    section.news .news_box .news_img{width: 40%; margin-bottom:0;}
     section.news .news_box .news_txt{margin-left: 2vw; margin-top: 1vw;}
     section.news .news_box span{padding: 1vw 1vw 1vw; background-color:#027710; color: #fff; font-size: 1.2vw;  margin: 1vw 0 3vw; font-weight: bold; 
                               font-family: 'Noto Sans KR'; text-align: center;} 
-    section.news .news_box p{margin-top: 2vw; font-family: 'Noto Sans KR'; font-size: 1.2vw; color: #027710; font-weight: bold;}
+    section.news .news_box p{margin-top: 2vw; font-family: 'Noto Sans KR'; font-size: 1.5vw; color: #027710; font-weight: bold;}
     section.news .news_box button{padding: 1vw 1vw; border: none; background-color: #027710; border-radius: 10px; color: #fff; 
-                                 font-size: 1.5vw; font-family: 'NEXON Lv1 Gothic OTF'; margin-top: 2vw;}
+                                 font-size: 1.5vw; font-family: 'NEXON Lv1 Gothic OTF';}
 
 
 
@@ -566,7 +569,7 @@ footer small{background-color: #c1702f; display: block; text-align: center; padd
     footer .f_bottom{display: flex; flex-flow: row nowrap; justify-content: space-between; align-items: center;}
     footer .f_bottom .f_logo{width: 25vw; margin: 0;}
     footer small{background-color: #c1702f; display: block; text-align: center; padding: 2vw; margin-top: 0.2vw; color: #fff; width: 100%; font-size: 1.3vw;}
-    footer .f_bottom address{order:2; font-size: 1vw; margin: 0; padding: 0; line-height: 40px; margin-right: 2vw; margin-left: 5vw; line-height: 2vw;}
+    footer .f_bottom address{order:2; font-size: 1vw; margin: 0; padding: 0; line-height: 40px; margin-right: 2vw; margin-left: 4vw; line-height: 2vw;}
     footer .f_bottom .sns{order:1; }
     footer .f_bottom .sns ul li{margin: 1vw; width: 2vw; width: 3vw;}
     
